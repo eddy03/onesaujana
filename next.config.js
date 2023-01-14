@@ -4,8 +4,8 @@ const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 const repo = 'onesaujana'
 
-let assetPrefix = ''
-let basePath = '/'
+let assetPrefix = '/'
+let basePath = ''
 
 if (isGithubActions) {
   // trim off `<owner>/`
